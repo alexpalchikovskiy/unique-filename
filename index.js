@@ -37,7 +37,7 @@ class UniqueFilename{
         if( _word.length < this.size ){
             if( manual ){
                 return {
-                    error: `Length must be most than ${this.size}`
+                    error: `The length must be more than ${this.size}`
                 };
             }else{
                 _word = this.mixedRandom(this.word, this.size - this.word.length);
@@ -50,7 +50,7 @@ class UniqueFilename{
         if( exist ){
             if( manual ){
                 return {
-                    error: 'Name exist'
+                    error: 'The name exist'
                 };
             }else{
                 _word = this.run( this.mixedRandom( this.word, this.size-this.word.length ), false );
