@@ -1,17 +1,17 @@
-# unique-filename
+# unique-filename-generator
 
 Unique filename generator. Can compares files in some folder. Can generates name based on your query.
 
 ## Install
 
 ```
-npm i unique-filename --save
+npm i unique-filename-generator --save
 ```
 
 ## How to use
 
 ```
-const UniqueFilename = require( 'unique-filename' );
+const UniqueFilename = require( 'unique-filename-generator' );
 
 const filename = new UniqueFilename( [options] );
 
@@ -56,7 +56,7 @@ if error, return only one property:
 ## Example
 
 ```
-const UniqueFilename = require( 'unique-filename' );
+const UniqueFilename = require( 'unique-filename-generator' );
 
 const filename = new UniqueFilename(
     {
